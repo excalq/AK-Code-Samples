@@ -1,4 +1,8 @@
 <?php
+// 2010 - Arthur Ketcham
+// 
+// CakePHP vendor script to allow application to read commit and tag data from git repositories
+// as well as retrieve build manifest data from tagged releases.
 
 class GitReader extends Object
 {
